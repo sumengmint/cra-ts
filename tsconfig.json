@@ -6,6 +6,9 @@
       "dom.iterable",
       "esnext"
     ],
+    "typeRoots": [
+      "src/typings"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -20,6 +23,10 @@
     "jsx": "react"
   },
   "include": [
-    "src"
-  ]
+    "src",
+    "images.d.ts",
+    "typings/images.d.ts",
+    "typings/module.d.ts"
+  ],
+  "extends": "./path.json"
 }

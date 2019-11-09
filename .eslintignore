@@ -1,0 +1,7 @@
+# Ignore coverage files
+node_modules/
+
+# Ignore others
+build/
+src/serviceWorker.ts
+config-overrides.js
