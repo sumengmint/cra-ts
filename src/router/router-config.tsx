@@ -1,6 +1,6 @@
 import React from 'react';
 import { Parent } from '../components/parent/index';
-import { Effect } from '../components/hooks/effect';
+import { Effect } from '../pages/hooks/effect';
 
 interface RouteItem {
   path: string;
@@ -15,7 +15,7 @@ const routeConfig: RouteItem[] = [
     exact: true
   },
   {
-    path: 'effect',
+    path: '/effect',
     component: Effect
   }
 ];

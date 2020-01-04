@@ -24,7 +24,7 @@ module.exports = {
     }
   },
   "parser": "@typescript-eslint/parser",
-  'globals': {
-    'Promise': true
+  "globals": {
+    "Promise": true
   }
 };

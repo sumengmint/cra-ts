@@ -16,7 +16,7 @@ export interface CRefs {
 }
 
 export const Child = forwardRef<CRefs, Cprops>((props, ref) => {
-  const ChildRef: MutableRefObject<any> = useRef<HTMLDivElement>(null);
+  const ChildRef: MutableRefObject<any> = useRef<HTMLDivElement>(null!);
   const subClick = () => {
     ChildRef.current.handlerFn();
   };
